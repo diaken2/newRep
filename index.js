@@ -13,3 +13,4 @@ add.push(cor)
 return add
 },[])
 console.log(B)
+console.log('АНИМЕ')
