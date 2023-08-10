@@ -6,3 +6,10 @@ for (let i=0;i<5;i++){
 A.push(i)
 }
 console.log(A)
+let B = A.reduce((add,cor)=>{
+if (cor==2){
+add.push(cor)
+}
+return add
+},[])
+console.log(B)
